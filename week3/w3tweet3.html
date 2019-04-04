@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flash</title>
+	<style type="text/css">
+
+.error {
+  margin:20px;
+  font-family: arial;
+  font-size:150px;
+  text-align: center;
+  display: inline-block;
+  animation-name:error;
+  animation-duration:1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.error:hover {
+  animation-name:shake;
+  animation-duration:1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes error {
+	
+	from {
+		color: white; background-color: black; 
+	}
+
+	to {
+		color: black; background-color: red;
+
+	}
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.text {
+  position: absolute;
+  font-family: courier;
+  font-size: 20px;
+  bottom:10px;
+  left:1200px;
+}
+
+
+
+</style>
+</head>
+<body>
+	<div class="text"> 12:42 AM - 22/03/19</div>
+	<div class="error shake"> ERROR  ERROR </div>
+	<div class="error"> ERROR  ERROR </div>
+	<div class="error"> ERROR  ERROR </div>
+	<div class="error"> ERROR  ERROR </div>
+
+</body>
+</html>
