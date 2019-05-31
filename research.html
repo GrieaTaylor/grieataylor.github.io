@@ -3,20 +3,22 @@
   <head>
     <meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Boilerplate Starter kit v1.07</title>
+    <title>Banana Juice Home</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="assets/css/colours.css" type="text/css">
     <link rel="stylesheet" href="assets/css/grid.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/video.css" type="text/css">
   	<script src="assets/js/jquery-3.4.1.min.js"></script>
   	<script src="assets/js/main.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/offset-slide.js"></script>
+    <script src="assets/js/video.js"></script>
     <link rel="stylesheet" href="assets/css/offset-slide.css" type="text/css">
     <script src="assets/js/popup-2.js"></script>
   </head>
-  <body class="bg-nana">
-  
+  <body class="bg-nana" >
+  <a href="about.html">
 
   <div class="nav">
     <div class="content nav-contents">
@@ -26,7 +28,7 @@
   </div>
     
   <div class="grid twopage over">
-    
+  
     <div class="col w-1of2">
       <div class="content">
         &nbsp&nbspBananas are for:
@@ -41,18 +43,18 @@
           <div>&nbspEating</div>
         </div>
         <div><br></div>
-        <div class="grid">
+        <div class="grid slip">
           <div class="box"></div>
           <div>&nbspSlipping</div>
         </div>
         <div><br></div>
-        <div class="grid">
+        <div class="grid calls">
           <div class="box"></div>
           <div>&nbsp Phone Calls</div>
         </div>
         <div><br></div>
         <div class="grid">
-          <div class="box"></div>
+          <div class="box juicevid"></div>
           <div>&nbspJuice</div>
         </div>
       </div>
@@ -71,7 +73,26 @@
   </div>
 </div>
 
+<div class="hide videat">
+  <video class="videat" autoplay loop >
+  <source src="assets/video/eating.mp4" type="video/mp4"/>
+  </video>
+</div>
 
+<div class="hide vidslip">
+  <video class='vidslip'autoplay loop width="100%">
+    <source src="assets/video/slipping.mp4" type="video/mp4">
+  </video>
+</div>
    
+
+   <div class="hide vidcall">
+     <video class="vidcall" autoplay loop width="100%">
+       <source src="assets/video/phonecalls.mp4" type="video/mp4">
+     </video>
+   </div>
+ 
+
+
   </body>
 </html>

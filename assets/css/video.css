@@ -1,0 +1,13 @@
+
+.hide {
+  position: fixed;
+  visibility: hidden;
+  width: 100%;
+  left: 0px;
+  top:0px;
+  z-index: -1;
+}
+
+.vidshow {
+  visibility: visible;
+}
