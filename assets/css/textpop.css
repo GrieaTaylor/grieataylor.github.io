@@ -1,9 +1,9 @@
 
 .hide {
   position: fixed;
+  left:0;
+  right:0;
   visibility: hidden;
-  width: 42.5%;
-  z-index: -1;
 }
 
 .textshow {
@@ -12,4 +12,5 @@
 
 .textpop {
 	font-size: 30px;
-	color: white; }
+	color: white;
+}
