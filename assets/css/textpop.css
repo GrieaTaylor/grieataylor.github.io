@@ -1,0 +1,15 @@
+
+.hide {
+  position: fixed;
+  visibility: hidden;
+  width: 42.5%;
+  z-index: -1;
+}
+
+.textshow {
+  visibility: visible;
+}
+
+.textpop {
+	font-size: 30px;
+	color: white; }

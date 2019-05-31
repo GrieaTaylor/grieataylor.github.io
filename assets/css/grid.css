@@ -15,8 +15,17 @@ border: solid 2px black;}
 
 }
 
+.smol {flex:0 0 5%;}
+
 .content {
 	padding: 20px;
+}
+
+
+
+.w-custom {
+	flex: 0 0 42.5%;
+
 }
 
 .w-1of1 {

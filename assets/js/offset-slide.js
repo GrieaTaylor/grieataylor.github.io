@@ -1,14 +1,12 @@
 $( document ).ready(function() {
     
-// $('.nav-contents').click(function() {
-//   $('.contents').addClass('top');
-// });
+$('.nav-contents').click(function() {
+  $('.contents').addClass('top');
+});
 
-// $('.close').click(function() {
-//   $('.contents').removeClass('top');
-// });
-
-
+$('.close').click(function() {
+  $('.contents').removeClass('top');
+});
 
 
 
@@ -20,14 +18,16 @@ $( document ).ready(function() {
 
 
 
- $('.nav-contents').mouseenter(function() {
-    $('.contents').addClass('top');
-  });
 
 
- $('.nav-contents').mouseleavel(function() {
-    $('.contents').removeClass('top');
-  });
+ // $('.nav-contents').mouseenter(function() {
+ //    $('.contents').addClass('top');
+ //  });
+
+
+ // $('.nav-contents').mouseleavel(function() {
+ //    $('.contents').removeClass('top');
+ //  });
 
 
 
