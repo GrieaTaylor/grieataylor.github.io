@@ -9,6 +9,14 @@ $( document ).ready(function() {
     $('.text2002').removeClass('textshow');
   });
 
+  $('.girl2019').mouseenter(function() {
+    $('.text2019').addClass('textshow');
+  });
+
+  $('.girl2019').mouseleave(function() {
+    $('.text2019').removeClass('textshow');
+  });
+
 
 
 

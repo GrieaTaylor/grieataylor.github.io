@@ -4,6 +4,8 @@
 	
 }
 
+
+
 .box {height: 72px;
 width: 72px;
 border: solid 2px black;}
@@ -18,13 +20,13 @@ border: solid 2px black;}
 .smol {flex:0 0 5%;}
 
 .content {
-	padding: 20px;
+	padding: 25px;
 }
 
 
 
 .w-custom {
-	flex: 0 0 42.5%;
+	flex: 0 0 47.5%;
 
 }
 

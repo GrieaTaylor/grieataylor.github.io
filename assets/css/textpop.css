@@ -1,8 +1,6 @@
 
 .hide {
   position: fixed;
-  left:0;
-  right:0;
   visibility: hidden;
 }
 
@@ -11,6 +9,14 @@
 }
 
 .textpop {
-	font-size: 30px;
+	position: fixed;
+	font-size: 60px;
 	color: white;
+	background-color: black;
+	opacity: 0.6;
+	width: 47.5%;
+	height: 675px;
+	padding: 20px;
 }
+
+.text2019 {right: 0px;}
