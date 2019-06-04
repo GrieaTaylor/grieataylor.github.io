@@ -5,11 +5,36 @@ body {
 
 }
 
-
 /** {
 	outline: 1px solid red;
 }
 */
+
+.buytext {
+	padding: 20px;
+	font-size: 40px;
+	color: white;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	z-index: -1;
+}
+
+
+.price {position: fixed;
+	width: 200px;
+	height: 200px;
+	right: 100px;
+	bottom: 30px;
+}
+
+.price:hover {
+	width: 250px;
+	height: 250px;
+}
+
+.vidcontent {padding: 20px;
+ margin-left: 10px;}
+
 
 .navbox {font-size: 30px;
 	padding: 10px;}
