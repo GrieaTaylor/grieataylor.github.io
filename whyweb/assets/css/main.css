@@ -1,6 +1,7 @@
 body {
-	font-family: neuzeit-grotesk-condensed, sans-serif;
+font-family: neuzeit-grotesk, sans-serif;
 font-style: normal;
+font-weight: 700;
 	color: #283581;
 
 }
@@ -13,7 +14,7 @@ font-style: normal;
 .header {font-size: 120px;
 	padding: 10px;
 	position: fixed;
-font-weight: 900;
+font-weight: 700;
 left: 45px;
 top: 45px;
 background-color: white;
@@ -29,7 +30,7 @@ padding: 10px;}
 .sheader {font-size: 120px;
 	padding: 5px;
 	position: fixed;
-font-weight: 900;
+font-weight: 700;
 left: 50px;
 top: 45px;
 background-color: white;
@@ -41,7 +42,7 @@ z-index: 3;
 	font-size: 120px;
 	padding: 10px;
 	position: fixed;
-font-weight: 900;
+font-weight: 700;
 left: 250px;
 top: 45px;
 background-color: white;
@@ -105,7 +106,7 @@ a:hover {text-decoration: line-through;}
 	text-align: center;
 	left: 22%;
 	position: fixed;
-font-weight: 900;
+font-weight: 700;
 color: #d2232a;
 mix-blend-mode: color-burn;
 letter-spacing: -7px;
@@ -117,7 +118,7 @@ top: 70px;
 .headerbuy {font-size: 120px;
 	padding: 10px;
 	position: fixed;
-font-weight: 900;
+font-weight: 700;
 right: 240px;
 top: 45px;
 color: white;
