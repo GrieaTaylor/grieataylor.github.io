@@ -1,0 +1,27 @@
+.bg-red {
+	background-color: #d2232a;
+}
+
+.red {color: #d2232a; }
+
+.bgblue {
+	background-color: #283581;
+}
+
+.blue {color: #283581;}
+
+.gif { 
+	top:-10%;
+  height: 120%;
+  width: 120%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: fixed;
+}
+
+.bgwhite {
+	background-color: white;
+}
+

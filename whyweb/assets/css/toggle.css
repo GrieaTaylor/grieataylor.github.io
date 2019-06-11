@@ -1,0 +1,25 @@
+.title {
+	font-size: 24vw;
+	height: 220px;
+
+	text-align: center;
+}
+
+.toggle-title {
+	border-top:3px solid #283581;
+	cursor: pointer;
+	padding: 5px;
+	font-family: neuzeit-grotesk, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+color:  #283581;
+}
+
+.toggle-title:hover {
+	color: #d2232a;
+}
+
+.toggle-content {
+	display: none;
+}
