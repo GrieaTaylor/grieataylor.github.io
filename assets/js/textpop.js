@@ -1,13 +1,6 @@
 $( document ).ready(function() {
 	// don't delete me
     
- // $('.girl2002').mouseenter(function() {
- //    $('.text2002').addClass('textshow');
- //  });
-
- //  $('.girl2002').mouseleave(function() {
- //    $('.text2002').removeClass('textshow');
- //  });
 
 $('.girl2002,.text2002').mouseenter(function() {
     $('.text2002').addClass('textshow');
@@ -78,6 +71,23 @@ $('.blossom').mouseenter(function() {
 
   $('.blossom').mouseleave(function() {
     $('.textblossom').removeClass('textshow');
+  });
+
+
+$('.body').mouseenter(function() {
+    $('.textbody').addClass('textshow');
+  });
+
+  $('.body').mouseleave(function() {
+    $('.textbody').removeClass('textshow');
+  });
+
+  $('.freckleboy').mouseenter(function() {
+    $('.textbody').addClass('textshow');
+  });
+
+  $('.freckleboy').mouseleave(function() {
+    $('.textfreckleboy').removeClass('textshow');
   });
 
 

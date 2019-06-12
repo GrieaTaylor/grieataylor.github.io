@@ -25,7 +25,17 @@ $('.slip').mouseleave(function() {
   });
 
 
- $('.juicevid').mouseleave(function() {
+ $('.calls').mouseleave(function() {
+    $('.vidcall').removeClass('vidshow');
+  });
+
+
+$('.juice').mouseenter(function() {
+    $('.vidjuice').addClass('vidshow');
+  });
+
+
+ $('.juice').mouseleave(function() {
     $('.vidjuice').removeClass('vidshow');
   });
 

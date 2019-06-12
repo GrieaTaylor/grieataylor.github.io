@@ -28,9 +28,30 @@ body {
 }
 
 .price:hover {
-	width: 250px;
-	height: 250px;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 
 .vidcontent {padding: 20px;
  margin-left: 10px;}
@@ -38,7 +59,6 @@ body {
 
 .navbox {font-size: 30px;
 	padding: 10px;}
-
 
 .strike {text-decoration: line-through;}
 
@@ -58,7 +78,6 @@ font-size: 120px;
 width: 1350px;
 height:690px;
 }
-
 
 
 .white {color: white;}
@@ -136,6 +155,14 @@ font-size: 100px;
 	transition: 0.5s;
 }
 
+.homenana {
+	z-index: 2;
+	position: fixed;
+	top: 300px;
+	left: 250px;
+	width: 300px;
+	height: 300px;
 
+}
 
 
