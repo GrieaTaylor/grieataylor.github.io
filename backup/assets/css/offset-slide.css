@@ -1,0 +1,38 @@
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.lilbox {
+	width: 3%;
+	height:3%;
+}
+
+
+.contents {
+	width: 100%;
+	height:100px;
+	position: fixed;
+	left:0px;
+	background-color: #f6db4e;
+	top: -85px;
+	overflow: scroll;
+	transition: 0.5s;
+	padding: 18px;
+	padding-left: 300px; 
+}
+
+.contents.top {
+	top: 0px;
+	transition: 0.5s;
+}
+
+.nav-contents {
+	cursor: pointer;
+	left: 10px;
+	top: 15px;
+}
+
+.close {
+	cursor: pointer;
+}

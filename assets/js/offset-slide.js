@@ -1,11 +1,11 @@
 $( document ).ready(function() {
     
-$('.nav-contents').click(function() {
-  $('.contents').addClass('top');
+$('.info').click(function() {
+  $('.contents').addClass('left');
 });
 
-$('.close').click(function() {
-  $('.contents').removeClass('top');
+$('.arrow').click(function() {
+  $('.contents').removeClass('left');
 });
 
 
@@ -20,19 +20,11 @@ $('.close').click(function() {
 
 
 
- // $('.nav-contents').mouseenter(function() {
- //    $('.contents').addClass('top');
- //  });
-
-
- // $('.nav-contents').mouseleavel(function() {
- //    $('.contents').removeClass('top');
- //  });
 
 
 
 
 
 
-// don't delete me
+
 });
