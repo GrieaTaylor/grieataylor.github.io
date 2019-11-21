@@ -13,28 +13,28 @@ a:hover {
 	font-family: courier;
 	color: white;
 	font-size: 12px;
-    font-size: 3vw;}
+    font-size: 4vw;}
 
 	.subhead {font-size: 8px;
-    font-size: 2vw;
+    font-size: 3vw;
 color: #3248aa;
 font-family: courier;}
 
 .blue {color: #3248aa;}
 
 .insta {font-size: 12px;
-    font-size: 1.5vw;
+    font-size: 2vw;
 color: white;
 text-decoration: none;
 font-family: courier;}
 
 .email {font-size: 12px;
-    font-size: 1.5vw;
+    font-size: 2vw;
 color: white;
 font-family: courier;}
 
 .info {font-size: 12px;
-    font-size: 1.5vw;
+    font-size: 2vw;
 color: white;
 font-family: courier;}
 
@@ -47,7 +47,7 @@ font-family: courier;}
 }
 
 .about {font-size: 6px;
-    font-size: 1vw;
+    font-size: 2vw;
 color: white;
 font-family: courier;
 text-align: center;}
