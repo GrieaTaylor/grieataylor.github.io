@@ -1,47 +1,65 @@
+body {
+	background-color: black;
+}
 
-body {border-color: black;}
+a {text-decoration: none;
+color: white;}
+
+a:hover {
+  color: #3248aa;
+}
 
 .gri {
 	font-family: courier;
 	color: white;
-	font-size: 45px;}
+	font-size: 12px;
+    font-size: 3vw;}
 
-.subhead {font-size: 20px;
+	.subhead {font-size: 8px;
+    font-size: 2vw;
 color: #3248aa;
 font-family: courier;}
 
 .blue {color: #3248aa;}
 
-.insta {font-size: 20px;
+.insta {font-size: 12px;
+    font-size: 1.5vw;
 color: white;
 text-decoration: none;
 font-family: courier;}
 
-a {text-decoration: none;
-color: white;}
-
-.email {font-size: 20px;
+.email {font-size: 12px;
+    font-size: 1.5vw;
 color: white;
 font-family: courier;}
 
-.info {font-size: 20px;
+.info {font-size: 12px;
+    font-size: 1.5vw;
 color: white;
 font-family: courier;}
 
-.about {font-size: 15px;
+.info:hover {
+  color: #3248aa;
+}
+
+.blue:hover {
+  color: white;
+}
+
+.about {font-size: 6px;
+    font-size: 1vw;
 color: white;
 font-family: courier;
 text-align: center;}
 
-.playlist {font-size: 20px;
+.playlist {font-size: 12px;
+    font-size: 1.5vw;
 color: white;
 font-family: courier;}
 
 .bottom {
 bottom:5%;
 position: fixed;}
-
-
 
 .line {
   display: block;
@@ -53,6 +71,7 @@ position: fixed;}
   border-style: inset;
   border-width: 1px;
 }
+
 
 .sidebar {
 	position: fixed;
@@ -68,16 +87,7 @@ position: fixed;}
 	padding: 10px;
 }
 
-.main {
-
-	width:75%;
-	height: 100%;
-	margin-left: 25%;
-	background-color: black;
-}
-
 .main-content {
-	padding: 50px;
 	color: white; 
 }
 
@@ -87,16 +97,53 @@ position: fixed;}
 	text-transform: uppercase;
 }
 
-/*.thumbnail {
-	flex: 0 0 33.33%;
-}*/
 
-.thumbnail-content {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	color: blue;
+	flex:0 0 30%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.left-content {
 	padding: 10px;
-	padding-left: 100px;
 }
 
-.thumbnail img {
-	width:80%;
+.right {
+	
+	flex:0 0 70%;
+	height: 100vh;
+	overflow: scroll;	
 }
 
+.right-content {
+	padding: 10px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.right img {
+	width: 100%;
+}
