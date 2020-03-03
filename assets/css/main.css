@@ -33,7 +33,14 @@ font-family: courier;}
 color: white;
 font-family: courier;}
 
-.info {font-size: 12px;
+.infom {font-size: 8px;
+    font-size: 0.8vw;
+    text-align: right;
+color: white;
+font-family: courier;}
+
+.info {
+	font-size: 12px;
     font-size: 1.5vw;
 color: white;
 font-family: courier;}
