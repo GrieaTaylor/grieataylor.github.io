@@ -40,6 +40,11 @@ position: absolute;
 .ar {font-size: 30px;
 right: 30px;
 position: absolute;
+color: white;
+}
+
+.ar:hover {
+  color: #3248aa;
 }
 
 
