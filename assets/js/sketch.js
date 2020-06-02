@@ -17,5 +17,5 @@ function draw() {
   noStroke (
 
 );
- ellipse(pmouseX, pmouseY, 40, 40 );
+ ellipse(pmouseX, pmouseY, 30, 30 );
 }
