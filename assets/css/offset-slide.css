@@ -8,7 +8,6 @@
 	right:0px;
 	background-color: black;
 	margin-right: -100%;
-	overflow: scroll;
 	transition: 0.5s;
 }
 
@@ -33,6 +32,7 @@ line-height: 24px;
 }
 
 .arrow {
+	font-size: 30px;
 	cursor: pointer;
 }
 
@@ -50,7 +50,7 @@ line-height: 24px;
 	 	font-size: 35px;
 line-height: 44px;
 	 }
-
+.arrow { font-size: 50px; }
 	 .blue {font-size: 50px;}
 }
 
@@ -61,6 +61,6 @@ line-height: 44px;
 line-height: 50px;
 padding: 50px;
 	 }
-
+.arrow { font-size: 50px; }
 	 .blue {font-size: 50px;}
 }
